@@ -1,0 +1,361 @@
+body{
+    margin: 0;
+    display: inline;
+    /*overflow: hidden;*/
+}
+
+/*错误提示*/
+.err{
+    font-size: 15px;
+    color: white;
+    display: none;
+    background: #624c34;
+    position: fixed;
+    top: 40%;
+    margin:0 auto;
+    left:0;
+    right:0;
+    width: 80%;
+    text-align: center;
+    z-index: 1000;
+    padding: 5px;
+    border:1px solid ;
+    border-radius:5px;
+}
+
+.page1 {
+    background-color: #1c1403;
+    position: relative;
+}
+.page1 .aboveBlock{
+    /*height: 240px;*/
+    position: relative;
+}
+.page1 .aboveBlock .bg{
+    width: 100%;
+    /*height: auto;*/
+    height: 267px;
+}
+
+.page1 .aboveBlock .divChange{
+    width: 100%;
+    /*height: auto;*/
+    height: 350px;
+}
+
+
+.page1 .aboveBlock .divlogo{
+    width:295px;
+    height:295px;
+    margin: 3% 0 3% 5%;
+    position:relative;
+} 
+
+.page1 .aboveBlock .divTitle{
+    margin: -25% 0 0 65%;
+    position:absolute;
+} 
+.page1 .aboveBlock .msg{
+    width: 190px;
+    height: 120px;
+    position: absolute;
+    font-size: 14px;
+    color: black;
+}
+.page1 .aboveBlock .stamp{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin: -5% 0 0 25%;
+}
+.page1 .midBlock{
+    height: 40px;
+}
+.page1 .midBlock .input{
+    width: 60%;
+    float: left;
+    overflow: hidden;
+}
+.page1 .midBlock input{
+    width: 100%;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 0;
+    line-height: 30px;
+}
+.page1 .midBlock .enter{
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: #e44940;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+.page1 .underBlock{
+    position: relative;
+    /*height: 300px;*/
+}
+.page1 .underBlock .bg{
+    width: 100%;
+    height: 100%;
+}
+.page1 .underBlock .word{
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.page1 .underBlock .head{
+    width: 80%;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+.page1 .underBlock .addr{
+    width: 80%;
+    position: absolute;
+    top: 105px;
+    left: 10px;
+}
+.page1 .underBlock .logo{
+    position: fixed;
+    width: 100px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.page2{
+    width: 100%;
+    /*position: relative;*/
+}
+.page2 .bg{
+    width: 100%;
+    z-index: -100;
+    position: absolute;
+    top: 0;
+}
+.page2 .h1{
+    color: #655228;
+    margin: 20px 0 0 20px;
+    font-size: 20px;
+}
+.page2 .h2{
+    margin-top: 20px;
+    color: #655228;
+    font-size: 30px;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+}
+.page2 .player{
+    margin: 40px auto 0 auto;
+    width: 250px;
+    height: 141px;
+    background-color: black;
+    border: #655228 solid 1px;
+    position: relative;
+}
+.page2 .player .play{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.page2 .player video{
+    display: none;
+}
+.page2 .button{
+    margin: 130px 50px 0 50px;
+    /*width: 250px;*/
+}
+.page2 .button div{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #cc3129;
+    color: white;
+    opacity: 0.95;
+    text-align: center;
+}
+.page2 .button .share{
+    float: left;
+}
+.page2 .button .member{
+    float: right;
+}
+
+.page2 .logo{
+    width: 150px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+.page2 .click{
+    width: 130px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: none;
+}
+.page2 .click.on{
+    display: inline;
+}
+
+.page3{
+
+}
+.page3 .bg{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -100;
+}
+.page3 .aboveBlock{
+    position: relative;
+    width: 100%;
+    height: 275px;
+}
+.page3 .aboveBlock .aboveBlockBg{
+    width: 100%;
+    height: 275px;
+    position: absolute;
+    top: 0;
+}
+.page3 .above{
+    position: relative;
+    height: 125px;
+    padding: 30px 15px 5px 15px;
+    /*border-bottom: solid 1px #858484;*/
+}
+
+.page3 .above .head{
+    width: 40%;
+    float: left;
+}
+.page3 .above .head img{
+    width: 110px;
+    height: 110px;
+    border-radius:500px;
+    border: solid white 3px;
+}
+.page3 .above .msg{
+    width: 60%;
+    /*float: left;*/
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    /*font-family: monospace;*/
+}
+.page3 .above .msg p{
+    margin-left: 10px;
+    white-space:nowrap;
+}
+.page3 .above .msg .hello{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.page3 .above .msg .level,.page3 .above .msg .score{
+    margin: 5px 10px;
+}
+.page3 .above .msg .score label{
+    color: #fffdbd;font-weight: 900;
+}
+.page3 .above .msg img{
+    height: 15px;
+}
+.page3 .above .goPerson{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    /*background-color: red;*/
+}
+
+.page3 .button{
+    height: 115px;
+    background-color: #1e1407;
+    opacity: 0.5;
+    position: relative;
+}
+.page3 .button .img{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+}
+.page3 .button .line{
+    margin-top: 35px;
+    width: 50%;
+    float: left;
+    position: absolute;
+    top: 0;
+    height: 40px;
+    border-right: white solid 1px;
+    z-index: -50;
+}
+.page3 .button .img img{
+    width: 55px;
+    height: 65px;
+}
+.page3 .notice{
+    color: #7f684b;
+    margin: 10px;
+    font-size: 18px;
+}
+.page3 .list{
+    background-color: #261708;
+    border-top: solid 1px #858484;
+    border-bottom: solid 1px #858484;
+}
+.page3 .list .stage{
+    height: 40px;
+    margin-left: 15px;
+    padding: 10px;
+    border-bottom: solid 1px #624c34;
+}
+.page3 .list .stage .but{
+    width: 40px;
+    height: 35px;
+    float: left;
+}
+.page3 .list .stage .p{
+    margin-left: 15px;
+    width: 230px;
+    height: 40px;
+    float: left;
+}
+.page3 .list .stage .p p{
+    margin: 0;
+    font-size: 10px;
+    line-height: 15px;
+}
+.page3 .list .stage .p .p1{
+    color: #e5c093;
+    font-weight: 900;
+}
+.page3 .list .stage .p .p2{
+    color: white;
+}
+.page3 .list .stage .p .p3{
+    color: #c9a87f;
+}
+.page3 .list .stage .go{
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 20px;
+    right: 0;
+    position: absolute;
+}

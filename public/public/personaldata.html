@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>斑马数据-个人信息</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/personaldata.css"/>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js" ></script>
+    <script type="text/javascript" src="js/underscore-min.js" ></script>
+    <script type="text/javascript" src="js/personaldata.js" ></script>
+    <!--<script type="text/javascript" src="js/MegaPixImage.js" ></script>-->
+</head>
+<body>
+</body>
+
+<script id="template" type="text/template">
+    <div class="personaldata">
+
+    <div class="nav">
+        <a class="back" href="#"></a>
+        <a class="cancle" href="#">取消</a>
+        <h1>个人信息</h1>
+        <a class="next" href="#">保存</a>
+    </div>
+
+        <div class="personal" style="margin-top: 40px">
+            <div class="info-box">
+                <div class="avatar-box">
+                    头像
+                    <div>
+
+                        <img  class="avatar" id="picture" src="img/page3/page3_head.png">
+                    </div>
+                    <i class="arrow"></i>
+
+                </div>
+                <div>
+                    <ul class="opt-list">
+                        <li class="name">名称<em>nick_name</em><i class="arrow"></i></li>
+                        <li class="tel">手机号码<em>cell</em><i class="arrow"></i></li>
+
+                    </ul>
+                </div>
+
+
+
+
+            </div>
+            <div class="name-box" style="margin-top: 40px">
+                <input type="text" class="name" value="nick_name">
+            </div>
+
+            <div class="tel-box" style="margin-top: 40px">
+                <input type="text" class="tel" value="tel">
+            </div>
+
+
+
+            <div class="pic-box1" style="display: none">
+                <div class="pic-black" style="position: fixed;top: 0;bottom: 0;   background-color: rgba(0, 0, 0, 0.7);  width: 100%"></div>
+                <div  class="menu" >
+                    <ul>
+                        <li id="camera" style="display:none">拍照</li>
+                        <li id="choose-box">上传图片
+                            <input type="file"  accept="image/*" class="photos nofastclick"/>
+                        </li>
+                        <li class="cancel">取消</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+</div>
+
+    <div class="err">提示:<span></span></div>
+</script>
+
+</html>

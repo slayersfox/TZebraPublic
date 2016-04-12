@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+	<link rel="stylesheet" type="text/css" href="./css/wxml.css">
+	<script type="text/javascript" src="./js/zp.js"></script>
+	<script type="text/javascript" src="./js/wxml.js"></script>
+</head>
+<body>
+	<div class="page_apply" id="page_apply">
+		<div class="upframe"></div>
+		<div class="downframe"></div>
+		<form class="form" id="form">
+			<div class="label">
+				<span class="formlabel">
+					<i class="icon-phone"></i>
+				</span>
+				<div class="formline">
+					<input type="tel" id="cell" placeholder="请输入您的手机号码" />
+					<i class="icon-close nobg"></i>
+				</div>
+			</div>
+			<div class="line"></div>
+			<div class="label">
+				<span class="formlabel">
+					<i class="icon-map"></i>
+				</span>
+				<label class="formline" for="province_select" selectInput>
+					<select id="province_select">
+					</select>
+					<i class="icon-arrow"></i>
+				</label>
+				<label class="formline" for="city_select" selectInput>
+					<select id="city_select">
+					</select>
+					<i class="icon-arrow"></i>
+				</label>
+			</div>
+		</form>
+		<div class="gamble"></div>
+		<div class="ed hide" id="ed">
+			您已经抽过奖！<br/>
+			谢谢参与！
+		</div>
+	</div>
+	<div class="page_result hide" id="page_result">
+		<div class="totalbgup"></div>
+		<div class="totalbgdown"></div>
+		<div class="result">
+			<div class="stamp">
+				<div class="stampblock" id="stampblock">
+					<canvas>
+					</canvas>
+				</div>
+			</div>
+		</div>
+		<div class="linkbtn hide" id="linkbtn">
+			查看兑奖代码
+		</div>
+		<div class="rules">
+			<p>1.每个手机号码只能参加一次抽奖活动。</p>
+			<p>2.中奖后，可用兑奖代码兑换奖品，并尽快选择所在城市门店进行兑奖，兑奖时需向店员提供姓名、抽奖时所使用的手机号码、兑奖代码和所得奖项等相关信息。</p>
+			<p>3.活动时间：2015年12月20日—2016年2月22日</p>
+		</div>
+	</div>
+	<div class="page_award hide" id="page_award">
+		<div class="upframe">
+		</div>
+		<div class="downframesp">
+		</div>
+		<div class="award">
+			<div class="code" id="code">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
