@@ -43,10 +43,10 @@ $(document).ready(function() {
                     $("#msg").text("此序列号不存在！")
                 }
 
-                if (data.bgColor != "") {
-                    $("#divHeader").css("background-color", data.bgColor)
+                if (data.bgImg != "") {
+                    $("#divHeader").css("background-image", data.bgColor)
                 } else {
-                    $("#divHeader").css("background-color", "red")
+                    $("#divHeader").css("background-image", "img/page1/3.png")
                 }
 
 
