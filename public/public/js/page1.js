@@ -43,23 +43,23 @@ $(document).ready(function() {
                     $("#msg").text("此序列号不存在！")
                 }
 
-                if (data.bgImg != "") {
-                    $("#divHeader").css("background-image", data.bgColor)
+                if (data.product_bgImg != "") {
+                    $("#divHeader").css("background-image", data.product_bgImg)
                 } else {
                     $("#divHeader").css("background-image", "img/page1/3.png")
                 }
 
 
-                if (data.logo != "") {
-                    $("#divLogo").attr("src", data.logo);
+                if (data.product_logo != "") {
+                    $("#divLogo").attr("src", data.product_logo);
                 }
 
-                if (data.stamp != "") {
-                    $("#stamp").attr("src", data.stamp);
+                if (data.product_stamp != "") {
+                    $("#stamp").attr("src", data.product_stamp);
                 }
 
-                if (data.Inrto != "") {
-                    $("#imgIntro").attr("src", data.Inrto);
+                if (data.product_image != "") {
+                    $("#imgIntro").attr("src", data.product_image);
                 }
 
                 $(".enter").click(function(){
